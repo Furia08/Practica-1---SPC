@@ -12,6 +12,6 @@ int main(){
     for (Cmultiplic=1; Cmultiplic <= exp; Cmultiplic++){
         prod = prod * base;
     }
-    printf("El resultado de la potencia es: %.2f", prod);
+    printf("El resultado de la potencia es: %.2f", prod+10);
     return 0;
 }
